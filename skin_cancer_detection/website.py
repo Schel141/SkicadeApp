@@ -9,7 +9,7 @@ from PIL import Image
 #import cv2
 #import os
 import joblib
-#import tensorflow as tf
+import tensorflow as tf
 import pickle
 
 
