@@ -19,7 +19,7 @@ import pickle
 
 st.title ("Skin Cancer Detection")
 
-st.write("This website aims to develop a skin cancer detection based on dermatoscopic images and a patient's metadata using a Deep Learning model.")
+st.write("This website aims to develop a skin cancer detection based on dermatoscopic images using a Deep Learning model.")
 
 with st.expander("The Process of Skin Cancer Detection"):
     st.write("The process of skin cancer detection has significantly improved over the last years. Many different")
