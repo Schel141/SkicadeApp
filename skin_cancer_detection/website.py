@@ -134,7 +134,7 @@ if agree:
                 st.write("")
             with col2:
                 #st.image(image, width=(200))
-                st.image('green.jpg', width=(200))
+                st.image('./green.jpg', width=(200))
             with col3:
                 st.write("")
             st.markdown("A melanocytic naevus, or mole, is a common benign skin lesion due to a local proliferation of pigment cells (melanocytes). A brown or black melanocytic naevus contains the pigment melanin, so may also be called a pigmented naevus. It can be present at birth (a congenital melanocytic naevus) or appear later (an acquired naevus). (Source: dermnetnz.org)")
