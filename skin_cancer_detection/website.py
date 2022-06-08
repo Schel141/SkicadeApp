@@ -1,15 +1,15 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import numpy as np
-import pandas as pd
+#import numpy as np
+#import pandas as pd
 from PIL import Image
-import matplotlib as plt
-import seaborn as sns
-import cv2
-import os
+#import matplotlib as plt
+#import seaborn as sns
+#import cv2
+#import os
 import joblib
-import tensorflow as tf
+#import tensorflow as tf
 import pickle
 
 
