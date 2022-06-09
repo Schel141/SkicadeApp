@@ -138,14 +138,14 @@ if agree:
             #    st.write("")
             st.markdown("A melanocytic naevus, or mole, is a common benign skin lesion due to a local proliferation of pigment cells (melanocytes). A brown or black melanocytic naevus contains the pigment melanin, so may also be called a pigmented naevus. It can be present at birth (a congenital melanocytic naevus) or appear later (an acquired naevus). (Source: dermnetnz.org)")
         if endresult == 'dermatofibroma':
-            #image = Image.open('green.jpg')
-            #col1, col2, col3 = st.columns([1,6,1])
-            #with col1:
-            #    st.write("")
-            #with col2:
-            #    st.image(image, width=(200))
-            #with col3:
-            #    st.write("")
+            image = Image.open('skin_cancer_detection/green.jpg')
+            col1, col2, col3 = st.columns([1,6,1])
+            with col1:
+                st.write("")
+            with col2:
+                st.image(image, width=(200))
+            with col3:
+                st.write("")
             st.markdown("Dermatofibromas are common noncancerous (benign) skin growths. They are firm to hard, and they are skin-colored or slightly pigmented. These lesions usually persist for life, and they may heal as depressed scars after several years. (Source: skinsight.com)")
         if endresult == 'basal cell carcinoma':
             #image = Image.open('red.jpg')
