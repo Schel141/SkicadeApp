@@ -128,14 +128,14 @@ if agree:
             #    st.write("")
             st.markdown("Melanoma is a serious form of skin cancer that begins in cells known as melanocytes. While it is less common than basal cell carcinoma (BCC) and squamous cell carcinoma (SCC), melanoma is more dangerous because of its ability to spread to other organs more rapidly if it is not treated at an early stage. (Source: skincancer.org)")
         if endresult == 'melanocytic nevi':
-            #image = Image.open('green.jpg')
-            #col1, col2, col3 = st.columns([1,6,1])
-            #with col1:
-            #    st.write("")
-            #with col2:
-            #    st.image(image, width=(200))
-            #with col3:
-            #    st.write("")
+            image = Image.open('skin_cancer_detection/green.jpg')
+            col1, col2, col3 = st.columns([1,6,1])
+            with col1:
+                st.write("")
+            with col2:
+                st.image(image, width=(200))
+            with col3:
+                st.write("")
             st.markdown("A melanocytic naevus, or mole, is a common benign skin lesion due to a local proliferation of pigment cells (melanocytes). A brown or black melanocytic naevus contains the pigment melanin, so may also be called a pigmented naevus. It can be present at birth (a congenital melanocytic naevus) or appear later (an acquired naevus). (Source: dermnetnz.org)")
         if endresult == 'dermatofibroma':
             image = Image.open('skin_cancer_detection/green.jpg')
